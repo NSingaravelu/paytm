@@ -1,0 +1,30 @@
+public class DynamicBinding
+
+{
+ 
+public static superclass{
+void print() {
+System.out.println("this is super class");
+
+}
+
+}
+
+public static class subclass extends superclass
+
+{
+
+//@Override
+void print(){
+System.out.println("this is sub class");
+
+}
+
+}
+
+public static void main (string[]){
+superclass sup=new superclass();
+subclass sub=new subclass();
+sup.print();
+sub.print();
+}}
